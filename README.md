@@ -1,4 +1,4 @@
-# Домашнее задание к занятию "Git" - Монжелесов Роман
+# Домашнее задание к занятию "Что такое DevOps. СI/СD" - Монжелесов Роман
 
 ### Инструкция по выполнению домашнего задания
 
@@ -19,16 +19,26 @@
 
 1. [Руководство по оформлению Markdown файлов](https://gist.github.com/Jekins/2bf2d0638163f1294637#Code)
 
----
+2. ![alt text]()
 
 ### Задание 1
 
-https://github.com/monzhelesov/newgit/commit/ccddc86881474b861c3db5a2af4d767aae5d3535
+![alt text](https://github.com/monzhelesov/git-hw/blob/main/Снимок%20экрана%202024-09-23%20в%2000.04.01.png)
+
+![alt text](https://github.com/monzhelesov/git-hw/blob/main/Снимок%20экрана%202024-09-23%20в%2000.03.36.png)
+
+![alt text](https://github.com/monzhelesov/git-hw/blob/main/Снимок%20экрана%202024-09-23%20в%2000.03.42.png)
 
 ### Задание 2
 
-https://github.com/monzhelesov/newgit/commit/015f32968735c5849140e275e41ac6c962edac45
+![alt text](https://github.com/monzhelesov/git-hw/blob/main/Снимок%20экрана%202024-09-23%20в%2000.33.28.png)
+
+![alt text](https://github.com/monzhelesov/git-hw/blob/main/Снимок%20экрана%202024-09-23%20в%2000.33.05.png)
 
 ### Задание 3
 
-https://github.com/monzhelesov/newgit/network
+![alt text](https://github.com/monzhelesov/git-hw/blob/main/Снимок%20экрана%202024-09-23%20в%2002.03.52.png)
+
+![alt text](https://github.com/monzhelesov/git-hw/blob/main/Снимок%20экрана%202024-09-23%20в%2002.03.29.png)
+
+![alt text](https://github.com/monzhelesov/git-hw/blob/main/Снимок%20экрана%202024-09-23%20в%2002.03.59.png)
