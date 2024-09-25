@@ -1,4 +1,4 @@
-# Домашнее задание к занятию "Что такое DevOps. СI/СD" - Монжелесов Роман
+# Домашнее задание к занятию "Gitlab" - Монжелесов Роман
 
 ### Инструкция по выполнению домашнего задания
 
@@ -23,22 +23,31 @@
 
 ### Задание 1
 
-![alt text](https://github.com/monzhelesov/git-hw/blob/main/Снимок%20экрана%202024-09-23%20в%2000.04.01.png)
+![alt text](https://github.com/monzhelesov/git-hw/blob/main/Снимок%20экрана%202024-09-25%20в%2018.27.54.png)
 
-![alt text](https://github.com/monzhelesov/git-hw/blob/main/Снимок%20экрана%202024-09-23%20в%2000.03.36.png)
-
-![alt text](https://github.com/monzhelesov/git-hw/blob/main/Снимок%20экрана%202024-09-23%20в%2000.03.42.png)
+![alt text](https://github.com/monzhelesov/git-hw/blob/main/Снимок%20экрана%202024-09-25%20в%2018.28.09.png)
 
 ### Задание 2
 
-![alt text](https://github.com/monzhelesov/git-hw/blob/main/Снимок%20экрана%202024-09-23%20в%2000.33.28.png)
+# .gitlab-ci.yml
 
-![alt text](https://github.com/monzhelesov/git-hw/blob/main/Снимок%20экрана%202024-09-23%20в%2000.33.05.png)
+stages:
+  - test
+  - build
 
-### Задание 3
+test:
+  stage: test
+  image: golang:1.17
+  script: 
+   - go test .
 
-![alt text](https://github.com/monzhelesov/git-hw/blob/main/Снимок%20экрана%202024-09-23%20в%2002.03.52.png)
+build:
+  stage: build
+  image: docker:latest
+  script:
+   - docker build .
 
-![alt text](https://github.com/monzhelesov/git-hw/blob/main/Снимок%20экрана%202024-09-23%20в%2002.03.29.png)
+# screenshots
+![alt text](https://github.com/monzhelesov/git-hw/blob/main/Снимок%20экрана%202024-09-25%20в%2020.37.50.png)
 
-![alt text](https://github.com/monzhelesov/git-hw/blob/main/Снимок%20экрана%202024-09-23%20в%2002.03.59.png)
+![alt text](https://github.com/monzhelesov/git-hw/blob/main/Снимок%20экрана%202024-09-25%20в%2020.38.10.png)
