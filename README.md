@@ -30,7 +30,7 @@
 ### Задание 2
 
 # .gitlab-ci.yml
-
+```yaml
 stages:
   - test
   - build
