@@ -29,7 +29,11 @@
 
 ### Задание 2
 
-# .gitlab-ci.yml
+![alt text](https://github.com/monzhelesov/git-hw/blob/main/Снимок%20экрана%202024-09-25%20в%2020.37.50.png)
+
+![alt text](https://github.com/monzhelesov/git-hw/blob/main/Снимок%20экрана%202024-09-25%20в%2020.38.10.png)
+
+## .gitlab-ci.yml
 ```yaml
 stages:
   - test
@@ -46,8 +50,3 @@ build:
   image: docker:latest
   script:
    - docker build .
-
-# screenshots
-![alt text](https://github.com/monzhelesov/git-hw/blob/main/Снимок%20экрана%202024-09-25%20в%2020.37.50.png)
-
-![alt text](https://github.com/monzhelesov/git-hw/blob/main/Снимок%20экрана%202024-09-25%20в%2020.38.10.png)
