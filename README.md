@@ -1,4 +1,4 @@
-# Домашнее задание к занятию "Gitlab" - Монжелесов Роман
+# Домашнее задание к занятию "Система мониторинга Zabbix" - Монжелесов Роман
 
 ### Инструкция по выполнению домашнего задания
 
@@ -23,30 +23,31 @@
 
 ### Задание 1
 
-![alt text](https://github.com/monzhelesov/git-hw/blob/main/Снимок%20экрана%202024-09-25%20в%2018.27.54.png)
+![alt text](https://github.com/monzhelesov/git-hw/blob/main/Снимок%20экрана%202024-10-13%20в%2023.26.12.png)
 
-![alt text](https://github.com/monzhelesov/git-hw/blob/main/Снимок%20экрана%202024-09-25%20в%2018.28.09.png)
+ wget https://repo.zabbix.com/zabbix/7.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_7.0-2+ubuntu24.04_all.deb
+ dpkg -i zabbix-release_7.0-2+ubuntu24.04_all.deb
+ apt update
+ apt install zabbix-server-pgsql zabbix-frontend-php php8.3-pgsql zabbix-apache-conf zabbix-sql-scripts zabbix-agent
+ sudo -u postgres createuser --pwprompt zabbix
+ sudo -u postgres createdb -O zabbix zabbix
+ zcat /usr/share/zabbix-sql-scripts/postgresql/server.sql.gz | sudo -u zabbix psql zabbix
+ systemctl restart zabbix-server zabbix-agent apache2
+ systemctl enable zabbix-server zabbix-agent apache2
 
 ### Задание 2
 
-![alt text](https://github.com/monzhelesov/git-hw/blob/main/Снимок%20экрана%202024-09-25%20в%2020.37.50.png)
+![alt text](https://github.com/monzhelesov/git-hw/blob/main/Снимок%20экрана%202024-10-14%20в%2000.06.27.png)
 
-![alt text](https://github.com/monzhelesov/git-hw/blob/main/Снимок%20экрана%202024-09-25%20в%2020.38.10.png)
+![alt text](https://github.com/monzhelesov/git-hw/blob/main/Снимок%20экрана%202024-10-14%20в%2000.06.52.png)
 
-## .gitlab-ci.yml
-```yaml
-stages:
-  - test
-  - build
+![alt text](https://github.com/monzhelesov/git-hw/blob/main/Снимок%20экрана%202024-10-14%20в%2000.08.33.png)
 
-test:
-  stage: test
-  image: golang:1.17
-  script: 
-   - go test .
+![alt text](https://github.com/monzhelesov/git-hw/blob/main/Снимок%20экрана%202024-10-14%20в%2000.10.14.png)
 
-build:
-  stage: build
-  image: docker:latest
-  script:
-   - docker build .
+ wget https://repo.zabbix.com/zabbix/7.0/debian/pool/main/z/zabbix-release/zabbix-release_7.0-2+debian12_all.deb
+ dpkg -i zabbix-release_7.0-2+debian12_all.deb
+ apt update
+ apt install zabbix-agent2 zabbix-agent2-plugin-*
+ systemctl restart zabbix-agent2
+ systemctl enable zabbix-agent2
