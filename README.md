@@ -1,4 +1,4 @@
-# Домашнее задание к занятию "Система мониторинга Zabbix. Часть 2" - Монжелесов Роман
+# Домашнее задание к занятию "Кластеризация и балансировка нагрузки" - Монжелесов Роман
 
 ### Инструкция по выполнению домашнего задания
 
@@ -23,16 +23,12 @@
 
 ### Задание 1
 
-![alt text](https://github.com/monzhelesov/git-hw/blob/main/Снимок%20экрана%202024-10-24%20в%2001.56.36.png)
+![alt text](https://github.com/monzhelesov/git-hw/blob/main/Снимок%20экрана%202024-11-09%20в%2001.07.05.png)
+
+![alt text](https://github.com/monzhelesov/git-hw/blob/main/Снимок%20экрана%202024-11-09%20в%2001.09.27.png)
 
 ### Задание 2
 
-Смотреть задание 3
+![alt text](https://github.com/monzhelesov/git-hw/blob/main/Снимок%20экрана%202024-11-09%20в%2001.17.46.png)
 
-### Задание 3
-
-![alt text](https://github.com/monzhelesov/git-hw/blob/main/Снимок%20экрана%202024-10-24%20в%2002.16.58.png)
-
-### Задание 4
-
-![alt text](https://github.com/monzhelesov/git-hw/blob/main/Снимок%20экрана%202024-10-24%20в%2002.22.22.png)
+![alt text](https://github.com/monzhelesov/git-hw/blob/main/Снимок%20экрана%202024-11-09%20в%2001.19.50.png)
