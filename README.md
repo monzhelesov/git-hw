@@ -1,4 +1,4 @@
-# Домашнее задание к занятию "Кластеризация и балансировка нагрузки" - Монжелесов Роман
+# Домашнее задание к занятию "Резервное копирование" - Монжелесов Роман
 
 ### Инструкция по выполнению домашнего задания
 
@@ -23,12 +23,12 @@
 
 ### Задание 1
 
-![alt text](https://github.com/monzhelesov/git-hw/blob/main/Снимок%20экрана%202024-11-09%20в%2001.07.05.png)
-
-![alt text](https://github.com/monzhelesov/git-hw/blob/main/Снимок%20экрана%202024-11-09%20в%2001.09.27.png)
+![alt text](https://github.com/monzhelesov/git-hw/blob/main/Снимок%20экрана%202024-11-13%20в%2001.07.14.png)
 
 ### Задание 2
 
-![alt text](https://github.com/monzhelesov/git-hw/blob/main/Снимок%20экрана%202024-11-09%20в%2001.17.46.png)
+![alt text](https://github.com/monzhelesov/git-hw/blob/main/Снимок%20экрана%202024-11-13%20в%2001.33.26.png)
 
-![alt text](https://github.com/monzhelesov/git-hw/blob/main/Снимок%20экрана%202024-11-09%20в%2001.19.50.png)
+![alt text](https://github.com/monzhelesov/git-hw/blob/main/Снимок%20экрана%202024-11-13%20в%2001.33.07.png)
+
+![alt text](https://github.com/monzhelesov/git-hw/blob/main/Снимок%20экрана%202024-11-13%20в%2001.37.47.png)
