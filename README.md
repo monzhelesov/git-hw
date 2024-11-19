@@ -1,4 +1,4 @@
-# Домашнее задание к занятию "Резервное копирование" - Монжелесов Роман
+# Домашнее задание к занятию "Отказоустойчивость в облаке" - Монжелесов Роман
 
 ### Инструкция по выполнению домашнего задания
 
@@ -23,12 +23,12 @@
 
 ### Задание 1
 
-![alt text](https://github.com/monzhelesov/git-hw/blob/main/Снимок%20экрана%202024-11-13%20в%2001.07.14.png)
+![alt text](https://github.com/monzhelesov/git-hw/blob/main/Снимок%20экрана%202024-11-19%20в%2021.47.28.png)
 
-### Задание 2
+![alt text](https://github.com/monzhelesov/git-hw/blob/main/Снимок%20экрана%202024-11-19%20в%2021.48.07.png)
 
-![alt text](https://github.com/monzhelesov/git-hw/blob/main/Снимок%20экрана%202024-11-13%20в%2001.33.26.png)
+![alt text](https://github.com/monzhelesov/git-hw/blob/main/Снимок%20экрана%202024-11-19%20в%2021.48.13.png)
 
-![alt text](https://github.com/monzhelesov/git-hw/blob/main/Снимок%20экрана%202024-11-13%20в%2001.33.07.png)
+![alt text](https://github.com/monzhelesov/git-hw/blob/main/Снимок%20экрана%202024-11-19%20в%2021.46.38.png)
 
-![alt text](https://github.com/monzhelesov/git-hw/blob/main/Снимок%20экрана%202024-11-13%20в%2001.37.47.png)
+![alt text](https://github.com/monzhelesov/git-hw/blob/main/Снимок%20экрана%202024-11-19%20в%2021.44.56.png)
